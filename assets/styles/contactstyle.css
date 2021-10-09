@@ -1,0 +1,164 @@
+html, body {
+    overflow: auto;
+}
+
+#container{
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+}
+
+#nav {
+    width: 25%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#curr{
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.navElem{
+    color: #949494;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.navElem:hover{
+    font-weight: 900;
+    color: white;
+}
+
+.navElem:active{
+    font-weight: 900;
+    color: white;
+}
+
+
+.dummy{
+    height: 20%;
+}
+
+#content {
+    width: 75%;
+    height: auto;
+    background-color: #f7f7f7;
+    position: fixed;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#heading {
+    font-size: 70px;
+    font-family: 'Bree Serif', serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+    padding-left: 10%;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding-left: 18%;
+    font-weight: 500;
+}
+
+#phone p {
+    margin-bottom: 3px;
+}
+
+#email p {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#mailadr {
+    color: black;
+    text-decoration: none;
+}
+
+#mailadr:hover {
+    font-weight: bolder;
+}
+
+#mailadr:active {
+    font-weight: bolder;
+}
+
+#others {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#text2{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 480;
+    padding-top: 3%;
+    padding-left: 14%;
+    padding-bottom: 2%;
+    letter-spacing: 1.5px;
+}
+
+#text2 p{
+    margin-bottom: 40px;
+}
+
+#icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iconify {
+    color: black;
+}
+
+.empty {
+    width: 7%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#youtube:hover{
+    color: #c4302b;
+}
+
+#instagram:hover{
+    color: #833AB4;
+}
+
+#linkedin:hover{
+    color: #0e76a8;
+}
+
+#github:hover{
+    color: #555555
+}
+
+#bottom {
+    height: 1000px;
+}
